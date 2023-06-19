@@ -484,7 +484,7 @@ footer {
 }
 
 @media print {
-    * {
+    main {
         border: none;
         box-shadow: none;
         margin: 0;
