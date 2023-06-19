@@ -484,6 +484,13 @@ footer {
 }
 
 @media print {
+    * {
+        border: none;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+
     nav, div, iframe, form, header, section, aside, footer { 
         display: none;
     }
@@ -491,7 +498,7 @@ footer {
     body {
         background-image: none;
     }
-    
+
     thead tr {
         background-color: white;
         color: black;
